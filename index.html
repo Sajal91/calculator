@@ -32,7 +32,6 @@
         }
         #calc-body {
             height: 60vh;
-            width: 90%;
             background-color: aliceblue;
             margin-inline: auto;
             display: flex;
@@ -49,6 +48,7 @@
             display: flex;
             flex-wrap: wrap;
             margin-top: 55px;
+            justify-content: center;
         }
         button {
             padding-block: 19px;
@@ -57,42 +57,227 @@
         button:hover {
             cursor:pointer;
         }
+
+        button {
+            padding-block: 1rem;
+        }
         #cancel-btn,#percent-btn,#delete-btn,#divide-btn {
-            padding-inline: 29.15px;
+            padding-inline: 1.2rem;
         }
         #btn-7, #btn-8, #btn-9, #multiply-btn {
-            padding-inline: 32.1px;
+            padding-inline: 1.39rem;
         }
         #btn-4, #btn-5, #btn-6, #sub-btn {
-            padding-inline: 32.2px;
+            padding-inline: 1.4rem;
         }
         #btn-1, #btn-2, #btn-3, #add-btn {
-            padding-inline: 31.8px;
+            padding-inline: 1.37rem;
         }
         #btn-00, #btn-0, #point-btn, #equal-btn {
-            padding-inline: 31.3px;
+            padding-inline: 1.34rem;
         }
-        @media (min-width:320px) and (max-width:400px) {
+
+        @media (min-width: 395px) and (max-width: 407px) {
+            #calc-body {
+                width: 80%;
+            }
             h1 {
                 font-size: 55px;
             }
-            button {
-                padding-block: 1rem;
+        }
+        @media (min-width: 407px) and (max-width: 450px) {
+            #calc-body {
+                width: 70%;
             }
-            #cancel-btn,#percent-btn,#delete-btn,#divide-btn {
-                padding-inline: 1.2rem;
+            h1 {
+                font-size: 55px;
             }
-            #btn-7, #btn-8, #btn-9, #multiply-btn {
-                padding-inline: 1.39rem;
+        }
+        
+        @media (min-width:320px) and (max-width: 360px) {
+            #calc-body {
+                width: 90%;
             }
-            #btn-4, #btn-5, #btn-6, #sub-btn {
-                padding-inline: 1.4rem;
+            h1 {
+                font-size: 55px;
             }
-            #btn-1, #btn-2, #btn-3, #add-btn {
-                padding-inline: 1.37rem;
+        }
+        @media (min-width:360px) and (max-width: 395px) {
+            #calc-body {
+                width: 84%;
             }
-            #btn-00, #btn-0, #point-btn, #equal-btn {
-                padding-inline: 1.34rem;
+            h1 {
+                font-size: 55px;
+            }
+        }
+        @media (min-width: 450px) and (max-width: 500px) {
+            #calc-body {
+                width: 64%;
+            }
+        }
+        @media (min-width: 500px) and (max-width: 550px) {
+            #calc-body {
+                width: 57%;
+            }
+        }
+        @media (min-width: 550px) and (max-width: 600px) {
+            #calc-body {
+                width: 52%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 600px) and (max-width: 650px) {
+            #calc-body {
+                width: 47%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 650px) and (max-width: 700px) {
+            #calc-body {
+                width: 45%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 700px) and (max-width: 750px) {
+            #calc-body {
+                width: 41%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 750px) and (max-width: 800px) {
+            #calc-body {
+                width: 38%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 800px) and (max-width: 850px) {
+            #calc-body {
+                width: 35%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 850px) and (max-width: 900px) {
+            #calc-body {
+                width: 33%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 900px) and (max-width: 950px) {
+            #calc-body {
+                width: 32%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 950px) and (max-width: 1000px) {
+            #calc-body {
+                width: 30%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1000px) and (max-width: 1050px) {
+            #calc-body {
+                width: 28%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1050px) and (max-width: 1100px) {
+            #calc-body {
+                width: 27%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1100px) and (max-width: 1150px) {
+            #calc-body {
+                width: 26%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1150px) and (max-width: 1200px) {
+            #calc-body {
+                width: 25%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1200px) and (max-width: 1250px) {
+            #calc-body {
+                width: 24%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1250px) and (max-width: 1300px) {
+            #calc-body {
+                width: 23%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1300px) and (max-width: 1350px) {
+            #calc-body {
+                width: 22%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1350px) and (max-width: 1400px) {
+            #calc-body {
+                width: 21%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1400px) and (max-width: 1450px) {
+            #calc-body {
+                width: 20%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1450px) and (max-width: 1500px) {
+            #calc-body {
+                width: 19%;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 1500px) and (max-width: 1550px) {
+            #calc-body {
+                width: 18%;
+            }
+            h1 {
+                font-size: 50px;
             }
         }
     </style>
