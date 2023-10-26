@@ -32,7 +32,7 @@
         }
         #calc-body {
             height: 60vh;
-            width: 300px;
+            width: 90%;
             background-color: aliceblue;
             margin-inline: auto;
             display: flex;
@@ -72,7 +72,29 @@
         #btn-00, #btn-0, #point-btn, #equal-btn {
             padding-inline: 31.3px;
         }
-        
+        @media (min-width:320px) and (max-width:400px) {
+            h1 {
+                font-size: 55px;
+            }
+            button {
+                padding-block: 1rem;
+            }
+            #cancel-btn,#percent-btn,#delete-btn,#divide-btn {
+                padding-inline: 1.2rem;
+            }
+            #btn-7, #btn-8, #btn-9, #multiply-btn {
+                padding-inline: 1.39rem;
+            }
+            #btn-4, #btn-5, #btn-6, #sub-btn {
+                padding-inline: 1.4rem;
+            }
+            #btn-1, #btn-2, #btn-3, #add-btn {
+                padding-inline: 1.37rem;
+            }
+            #btn-00, #btn-0, #point-btn, #equal-btn {
+                padding-inline: 1.34rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -103,7 +125,7 @@
                 <button id="equal-btn">=</button>
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="calculator.js"></script>
     </div>
 </body>
 </html>
