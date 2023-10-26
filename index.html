@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0, 0.9);
+        }
+        .outer {
+            box-shadow: 0px 0px 20px pink;
+            width: 80%;
+            height: 90vh;
+            margin-inline: auto;
+            border-radius: 25px;
+            background-color: rgba(187, 208, 236, 0.5);
+        }
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            color:aliceblue;
+            animation: dance infinite 1s 1ms ease;
+        }
+        @keyframes dance {
+            0% {
+                font-style: normal;
+            }
+            100% {
+                font-style: italic;
+            }
+        }
+        #calc-body {
+            height: 60vh;
+            width: 300px;
+            background-color: aliceblue;
+            margin-inline: auto;
+            display: flex;
+            flex-direction: column;
+            border: solid pink 5px;
+            box-shadow: 0 0 10px pink;
+        }
+        #calc-body input {
+            height: 20vh;
+            border: none;
+            background-color: aliceblue;
+        }
+        #btn-body {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 55px;
+        }
+        button {
+            padding-block: 19px;
+            border-radius: 30%;
+        }
+        button:hover {
+            cursor:pointer;
+        }
+        #cancel-btn,#percent-btn,#delete-btn,#divide-btn {
+            padding-inline: 29.15px;
+        }
+        #btn-7, #btn-8, #btn-9, #multiply-btn {
+            padding-inline: 32.1px;
+        }
+        #btn-4, #btn-5, #btn-6, #sub-btn {
+            padding-inline: 32.2px;
+        }
+        #btn-1, #btn-2, #btn-3, #add-btn {
+            padding-inline: 31.8px;
+        }
+        #btn-00, #btn-0, #point-btn, #equal-btn {
+            padding-inline: 31.3px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h1>Sajal's Calculator</h1>
+        <div id="calc-body">
+            <input type="text" name="output" id="output">
+            <div id="btn-body">
+                <button id="cancel-btn">C</button>
+                <button id="percent-btn">%</button>
+                <button id="delete-btn">DEL</button>
+                <button id="divide-btn">/</button>
+                <button id="btn-7">7</button>
+                <button id="btn-8">8</button>
+                <button id="btn-9">9</button>
+                <button id="multiply-btn">*</button>
+                <button id="btn-4">4</button>
+                <button id="btn-5">5</button>
+                <button id="btn-6">6</button>
+                <button id="sub-btn">-</button>
+                <button id="btn-1">1</button>
+                <button id="btn-2">2</button>
+                <button id="btn-3">3</button>
+                <button id="add-btn">+</button>
+                <button id="btn-00">00</button>
+                <button id="btn-0">0</button>
+                <button id="point-btn">.</button>
+                <button id="equal-btn">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
